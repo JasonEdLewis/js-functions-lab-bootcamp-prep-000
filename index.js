@@ -6,4 +6,4 @@ let happyHolidaysTo = (name) =>{
   return `${happyHolidays()} , ${name}`
 };
 
-happyHolidaysTo("jason")
+console.log(happyHolidaysTo("jason"))

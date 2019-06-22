@@ -2,3 +2,6 @@
 let happyHolidays =()=>{
   return "Happy Holidays!";
 }
+let happyHolidaysTo = (name) =>{
+  return `${happyHolidays()} , ${name}`
+}

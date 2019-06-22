@@ -3,7 +3,9 @@ let happyHolidays =()=>{
   return "Happy Holidays!";
 }
 let happyHolidaysTo = (name) =>{
-  return `${happyHolidays()} , ${name}`
+  return `${holiday} , ${name}!`
 };
 
-console.log(happyHolidaysTo("jason"))
+let holidayCountdown = (holiday,days) =>{
+ return `It's ${days} days unitl ${holiday}!` 
+}
